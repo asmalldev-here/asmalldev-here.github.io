@@ -1,2 +1,7 @@
 theme: jekyll-theme-hacker
 title: asmalldev's website
+plugins:
+  - jekyll-sass-converter
+sass:
+  sass_dir: _sass
+  style: compressed
