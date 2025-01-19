@@ -1,7 +1,7 @@
 /* Custom styles */
 body {
     font-family: Arial, sans-serif;
-    color: black;
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, nav {
 }
 
 header {
-  background-color: #1a1a1a;
+  background-color: #000000;
   padding: 10px;
 }
 
