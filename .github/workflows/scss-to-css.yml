@@ -26,8 +26,9 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout -b compiled-css
         git add .
         git commit -m 'Compile SCSS to CSS'
-        git push
+        git push origin compiled-css
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
