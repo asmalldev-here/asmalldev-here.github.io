@@ -1,3 +1,5 @@
+theme: jekyll-theme-hacker
+title: asmalldev's website
 ---
 layout: default
 ---
