@@ -1,3 +1,6 @@
+---
+---
+
 // Import the hacker theme
 @import 'jekyll-theme-hacker';
 
@@ -5,8 +8,38 @@
 body {
     font-family: Arial, sans-serif;
     color: white;
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
     color: lightgreen;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
 }
