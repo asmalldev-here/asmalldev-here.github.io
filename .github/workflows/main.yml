@@ -29,9 +29,6 @@ jobs:
         git checkout -b compiled-css
         git add .
         git commit -m 'Compile SCSS to CSS'
-        git pull --rebase origin compiled-css
-        git push --set-upstream origin compiled-css
-        git rebase --skip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
